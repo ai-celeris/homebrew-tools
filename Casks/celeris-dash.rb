@@ -7,6 +7,8 @@ cask "celeris-dash" do
   desc "Local desktop dispatcher powered by celeris-1"
   homepage "https://dash.celeris.ai/"
 
+  disable! date: "2026-08-29", because: "a notarized stable release is not available yet"
+
   livecheck do
     skip "Release channel is managed by Celeris Dash automation"
   end
