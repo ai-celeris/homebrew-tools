@@ -1,6 +1,6 @@
 cask "celeris-dash@nightly" do
-  version "0.5.0-src0000002297.c0.nightly.g91b32992"
-  sha256 "e3941d35b34753595ae7121b8a70c4efef5d480a33bc1493018f02562db9b1b0"
+  version "0.5.0-src0000002302.c0.nightly.g700c5211"
+  sha256 "8e368d68faaf8624b1d3f3db3f9f1d7eb7be6b3266a30239956f70a3a1ae4d1a"
 
   url "https://downloads.dash.celeris.ai/releases/v#{version}/celeris-dash-#{version}-macos-arm64.zip"
   name "Celeris Dash (nightly)"
