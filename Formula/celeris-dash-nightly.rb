@@ -1,9 +1,9 @@
 class CelerisDashNightly < Formula
   desc "Local desktop dispatcher powered by celeris-1 (nightly channel)"
   homepage "https://dash.celeris.ai/"
-  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000002595.c0.nightly.gbdaf7353/celeris-dash-0.5.0-src0000002595.c0.nightly.gbdaf7353-linux-x64.AppImage"
-  version "0.5.0-src0000002595.c0.nightly.gbdaf7353"
-  sha256 "8daaf6533afc8e359f6d0f39266170de0121758c54c0ae15a54ba205a5fd34fd"
+  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000002597.c0.nightly.g14aa82c7/celeris-dash-0.5.0-src0000002597.c0.nightly.g14aa82c7-linux-x64.AppImage"
+  version "0.5.0-src0000002597.c0.nightly.g14aa82c7"
+  sha256 "9411dd37ff5c5a04bd89c858103dfbcb769f999c63077d9a6edbcf5a13604bb0"
   license :cannot_represent
 
   def install
