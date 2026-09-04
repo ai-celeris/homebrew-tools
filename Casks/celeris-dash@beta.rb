@@ -1,18 +1,17 @@
 cask "celeris-dash@beta" do
-  version "0.5.0"
-  sha256 "919297b657eba63dc1412fbeac2b582ab85325f0e70ec3f141463abf7b5e2f9c"
+  version "0.5.0-src0000002395.c1.rc.g9d3c7930"
+  sha256 "edd1d5d648fd3cc58b906bf2276fc00c4fb49319e4688d0aedbcdd4223748de2"
 
   url "https://downloads.dash.celeris.ai/releases/v#{version}/celeris-dash-#{version}-macos-arm64.zip"
   name "Celeris Dash (beta)"
   desc "Local desktop dispatcher powered by celeris-1"
   homepage "https://dash.celeris.ai/"
 
-  disable! date: "2026-08-29", because: "a notarized beta release is not available yet"
-
   livecheck do
     skip "Release channel is managed by Celeris Dash automation"
   end
 
+  auto_updates true
   conflicts_with cask: ["celeris-dash", "celeris-dash@nightly"]
   depends_on arch: :arm64
   depends_on macos: :monterey
