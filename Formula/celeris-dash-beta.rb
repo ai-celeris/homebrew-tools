@@ -1,12 +1,10 @@
 class CelerisDashBeta < Formula
   desc "Local desktop dispatcher powered by celeris-1 (beta channel)"
   homepage "https://dash.celeris.ai/"
-  url "https://downloads.dash.celeris.ai/releases/v0.0.0/celeris-dash-0.0.0-linux-x64.AppImage"
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000002395.c1.rc.g9d3c7930/celeris-dash-0.5.0-src0000002395.c1.rc.g9d3c7930-linux-x64.AppImage"
+  version "0.5.0-src0000002395.c1.rc.g9d3c7930"
+  sha256 "25394d886dc066cb0d7ca48b4d69d9653ce19d94fab7dcf7f251657d98d31931"
   license :cannot_represent
-
-  disable! date: "2026-09-01", because: "a notarized beta release is not available yet"
 
   def install
     if OS.mac?
