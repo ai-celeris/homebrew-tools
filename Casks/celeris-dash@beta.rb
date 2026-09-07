@@ -1,6 +1,6 @@
 cask "celeris-dash@beta" do
-  version "0.5.0-src0000002395.c1.rc.g9d3c7930"
-  sha256 "edd1d5d648fd3cc58b906bf2276fc00c4fb49319e4688d0aedbcdd4223748de2"
+  version "0.5.0-src0000002771.c1.rc.g75446b7d"
+  sha256 "9c858c5882b5d23a5c7a4dfa6e28380c936ba4a24f4636158481fe87a4ec96d5"
 
   url "https://downloads.dash.celeris.ai/releases/v#{version}/celeris-dash-#{version}-macos-arm64.zip"
   name "Celeris Dash (beta)"
