@@ -1,9 +1,9 @@
 class CelerisDashBeta < Formula
   desc "Local desktop dispatcher powered by celeris-1 (beta channel)"
   homepage "https://dash.celeris.ai/"
-  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000003034.c1.rc.g44a26203/celeris-dash-0.5.0-src0000003034.c1.rc.g44a26203-linux-x64.AppImage"
-  version "0.5.0-src0000003034.c1.rc.g44a26203"
-  sha256 "61d72639252c2f7e8bddbd09abe73d717515aa305a41b9c92471ac6a95ade21e"
+  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000003075.c1.rc.g66a25ed1/celeris-dash-0.5.0-src0000003075.c1.rc.g66a25ed1-linux-x64.AppImage"
+  version "0.5.0-src0000003075.c1.rc.g66a25ed1"
+  sha256 "e9097803cd927980bc23318d138c1c7caca54ec5ef5c72ee72ca2ad771f2bacb"
   license :cannot_represent
 
   def install
