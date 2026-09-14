@@ -1,7 +1,7 @@
 class CelerisDash < Formula
-  desc "Local desktop dispatcher powered by celeris-1"
-  homepage "https://dash.celeris.ai/"
-  url "https://downloads.dash.celeris.ai/releases/v0.0.0/celeris-dash-0.0.0-linux-x64.AppImage"
+  desc "Fast assistant that acts on whatever is on your screen"
+  homepage "https://app.celeris.ai/"
+  url "https://downloads.app.celeris.ai/releases/v0.0.0/celeris-dash-0.0.0-linux-x64.AppImage"
   version "0.0.0"
   sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   license :cannot_represent
@@ -27,7 +27,7 @@ class CelerisDash < Formula
 
   def caveats
     <<~CAVEATS
-      Start Dash with `celeris-dash`.
+      Start Celeris with `celeris-dash`.
     CAVEATS
   end
 

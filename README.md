@@ -7,10 +7,10 @@ brew install ai-celeris/tools/celeris
 brew install --cask ai-celeris/tools/celeris-dash
 ```
 
-Dash preview channels use `celeris-dash@beta` and
+Celeris preview channels use `celeris-dash@beta` and
 `celeris-dash@nightly`. Release automation maintains all casks in `Casks/`.
 
-Casks are macOS-only. On Linux, Dash installs from the formulae in `Formula/`,
+Casks are macOS-only. On Linux, Celeris installs from the formulae in `Formula/`,
 which ship the published AppImage:
 
 ```sh

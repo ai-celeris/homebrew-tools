@@ -1,7 +1,7 @@
 class CelerisDashNightly < Formula
-  desc "Local desktop dispatcher powered by celeris-1 (nightly channel)"
-  homepage "https://dash.celeris.ai/"
-  url "https://downloads.dash.celeris.ai/releases/v0.5.0-src0000003105.c0.nightly.g59968182/celeris-dash-0.5.0-src0000003105.c0.nightly.g59968182-linux-x64.AppImage"
+  desc "Fast assistant that acts on whatever is on your screen (nightly channel)"
+  homepage "https://app.celeris.ai/"
+  url "https://downloads.app.celeris.ai/releases/v0.5.0-src0000003105.c0.nightly.g59968182/celeris-dash-0.5.0-src0000003105.c0.nightly.g59968182-linux-x64.AppImage"
   version "0.5.0-src0000003105.c0.nightly.g59968182"
   sha256 "1ccf1d92b6d6d7a88e9d0abf9623a8da4dddfd338c2eb9377340168871b3270f"
   license :cannot_represent
@@ -25,7 +25,7 @@ class CelerisDashNightly < Formula
 
   def caveats
     <<~CAVEATS
-      Start Dash with `celeris-dash-nightly`.
+      Start Celeris with `celeris-dash-nightly`.
     CAVEATS
   end
 
