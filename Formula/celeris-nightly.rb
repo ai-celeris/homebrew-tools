@@ -1,9 +1,9 @@
 class CelerisNightly < Formula
   desc "Fast assistant that acts on whatever is on your screen (nightly channel)"
   homepage "https://app.celeris.ai/"
-  url "https://downloads.celeris.ai/releases/v0.5.0-src0000003320.c0.nightly.ge80e23be/celeris-dash-0.5.0-src0000003320.c0.nightly.ge80e23be-linux-x64.AppImage"
-  version "0.5.0-src0000003320.c0.nightly.ge80e23be"
-  sha256 "eeeb131ccfc0d28a2535dc56186ffd2b06ef03d26655bdfcd03476196b57fe7a"
+  url "https://downloads.celeris.ai/releases/v0.5.0-src0000003322.c0.nightly.gf82e9515/celeris-dash-0.5.0-src0000003322.c0.nightly.gf82e9515-linux-x64.AppImage"
+  version "0.5.0-src0000003322.c0.nightly.gf82e9515"
+  sha256 "954d066712bac104c385fed993160406dff171aee33fff30ad649dad85434703"
   license :cannot_represent
 
   def install
